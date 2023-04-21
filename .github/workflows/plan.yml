@@ -26,7 +26,6 @@ jobs:
           hub pr checkout $PR_NUM
         if: github.event_name == 'issue_comment'
 
-
           
       - name: digger tfrun
         uses: diggerhq/tfrun@check-connection
